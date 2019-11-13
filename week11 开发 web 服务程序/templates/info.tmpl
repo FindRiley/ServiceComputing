@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>User Information</title>
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  
+  <body>
+    <h1 style="color:#3E63A7">User Information</h1>
+    <div id="main" width=100%>
+      <div id="left" style="width:32%; float:left">
+        <p class="name">Hello, {{.post.Username}}</p>
+    
+        <table>
+          <tr>
+            <th>Username</th><td>{{.post.Username}}</td>
+          </tr>
+          <tr>
+            <th>Password</th><td>{{.post.Password}}</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div id="right" style="width:60%;float:right">
+        <img src="image.png" alt="" width=92% />
+      </div>
+    </div>
+  </body>
+  
+</html>
